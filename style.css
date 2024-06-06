@@ -1,0 +1,74 @@
+/* Reset style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Warna latar belakang */
+body {
+  background-color: #fff;
+}
+
+/* Wrapper utama */
+.biodata {
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+/* Judul biodata */
+.biodata h1 {
+  text-align: center;
+  color: #ff0000;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Batas gambar */
+.biodata img {
+  border: 1px solid #00ff00;
+  float: left;
+  margin-right: 20px;
+}
+
+/* Judul data diri */
+.data-diri {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Label dan nilai data diri */
+.data-diri dt,
+.data-diri dd {
+  float: left;
+  width: 50%;
+}
+
+/* Font data diri */
+.data-diri dd {
+  font-family: Arial, sans-serif;
+}
+
+/* Riwayat pendidikan */
+.riwayat-pendidikan {
+  margin-top: 20px;
+}
+
+/* Judul riwayat pendidikan */
+.riwayat-pendidikan h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Daftar riwayat pendidikan */
+.riwayat-pendidikan ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Item riwayat pendidikan */
+.riwayat-pendidikan ul li {
+  margin-bottom: 5px;
+}
